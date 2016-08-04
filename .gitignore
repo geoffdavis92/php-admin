@@ -1,0 +1,4 @@
+# php-admin ignores... 
+node_modules 
+.sass-cache 
+public/

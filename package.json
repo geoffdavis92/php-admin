@@ -1,0 +1,19 @@
+{
+  "name": "php-admin",
+  "version": "0.0.0",
+  "description": "PHP Admin panel built with React",
+  "main": "/app/index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "PHP",
+    "Admin",
+    "Dashboard",
+    "React",
+    "App"
+  ],
+  "git repository": "https://github.com/geoffdavis92/php-admin.git",
+  "author": "geoffdavis92",
+  "license": "MIT"
+}
