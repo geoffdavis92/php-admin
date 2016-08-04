@@ -4,6 +4,7 @@
   "description": "PHP Admin panel built with React",
   "main": "/app/index.php",
   "scripts": {
+    "serve": "php -S localhost:19091",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
