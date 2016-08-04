@@ -1,0 +1,3 @@
+<?php 
+	$ASSETS = "assets";
+?>
