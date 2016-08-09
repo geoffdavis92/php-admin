@@ -73,4 +73,5 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-babel');
 
     grunt.registerTask('default', ['watch']);
+    grunt.registerTask('build', ['sass','babel','copy']);
 }
