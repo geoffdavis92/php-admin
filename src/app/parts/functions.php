@@ -1,6 +1,20 @@
 <?php 
 	$ASSETS = "assets";
 
+	function set_page_data($array) {
+		return $GLOBALS['page'] = $array;
+	}
+	function get_title() {
+		echo $GLOBALS['page']['title'];
+	}
+	function get_metadata() {
+		return array(
+			'keywords' => $GLOBALS['page']['keywords'],
+			'desc' => $GLOBALS['page']['description'],
+			'image' => $GLOBALS['page']['image']
+		);
+	}
+
 	function get_files($dir) {
 		if (is_dir($dir)){
 			if ($dh = opendir($dir)){
